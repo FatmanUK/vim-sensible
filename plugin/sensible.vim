@@ -103,6 +103,7 @@ set mouse=
 " Set text width
 set textwidth=70
 " Format options http://vimdoc.sourceforge.net/htmldoc/change.html#fo-table
-set formatoptions=cqta2j
+set formatoptions=cqa2j
+" t option causes eating of newlines?
 
 " vim:set ft=vim et sw=2:
