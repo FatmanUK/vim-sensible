@@ -98,4 +98,11 @@ if empty(mapcheck('<C-W>', 'i'))
   inoremap <C-W> <C-G>u<C-W>
 endif
 
+" Disable ridiculous visual mode
+set mouse=
+" Set text width
+set textwidth=70
+" Format options http://vimdoc.sourceforge.net/htmldoc/change.html#fo-table
+set formatoptions=cqta2j
+
 " vim:set ft=vim et sw=2:
